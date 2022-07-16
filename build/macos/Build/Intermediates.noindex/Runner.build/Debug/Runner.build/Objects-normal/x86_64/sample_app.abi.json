@@ -1,0 +1,364 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Cocoa",
+      "printedName": "Cocoa",
+      "declKind": "Import",
+      "moduleName": "sample_app"
+    },
+    {
+      "kind": "Import",
+      "name": "FlutterMacOS",
+      "printedName": "FlutterMacOS",
+      "declKind": "Import",
+      "moduleName": "sample_app"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "MainFlutterWindow",
+      "printedName": "MainFlutterWindow",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "awakeFromNib",
+          "printedName": "awakeFromNib()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@sample_app@objc(cs)MainFlutterWindow(im)awakeFromNib",
+          "mangledName": "$s10sample_app17MainFlutterWindowC12awakeFromNibyyF",
+          "moduleName": "sample_app",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "awakeFromNib",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(contentRect:styleMask:backing:defer:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "MainFlutterWindow",
+              "printedName": "sample_app.MainFlutterWindow",
+              "usr": "c:@M@sample_app@objc(cs)MainFlutterWindow"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGRect",
+              "printedName": "CoreGraphics.CGRect",
+              "usr": "c:@S@CGRect"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "StyleMask",
+              "printedName": "AppKit.NSWindow.StyleMask",
+              "usr": "c:@E@NSWindowStyleMask"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "BackingStoreType",
+              "printedName": "AppKit.NSWindow.BackingStoreType",
+              "usr": "c:@E@NSBackingStoreType"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@sample_app@objc(cs)MainFlutterWindow(im)initWithContentRect:styleMask:backing:defer:",
+          "mangledName": "$s10sample_app17MainFlutterWindowC11contentRect9styleMask7backing5deferACSo6CGRectV_So013NSWindowStyleI0VSo18NSBackingStoreTypeVSbtcfc",
+          "moduleName": "sample_app",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithContentRect:styleMask:backing:defer:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@sample_app@objc(cs)MainFlutterWindow",
+      "mangledName": "$s10sample_app17MainFlutterWindowC",
+      "moduleName": "sample_app",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)NSWindow",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "AppKit.NSWindow",
+        "AppKit.NSResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Cocoa",
+      "printedName": "Cocoa",
+      "declKind": "Import",
+      "moduleName": "sample_app"
+    },
+    {
+      "kind": "Import",
+      "name": "FlutterMacOS",
+      "printedName": "FlutterMacOS",
+      "declKind": "Import",
+      "moduleName": "sample_app"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "AppDelegate",
+      "printedName": "AppDelegate",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "applicationShouldTerminateAfterLastWindowClosed",
+          "printedName": "applicationShouldTerminateAfterLastWindowClosed(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSApplication",
+              "printedName": "AppKit.NSApplication",
+              "usr": "c:objc(cs)NSApplication"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@sample_app@objc(cs)AppDelegate(im)applicationShouldTerminateAfterLastWindowClosed:",
+          "mangledName": "$s10sample_app11AppDelegateC47applicationShouldTerminateAfterLastWindowClosedySbSo13NSApplicationCF",
+          "moduleName": "sample_app",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "applicationShouldTerminateAfterLastWindowClosed:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AppDelegate",
+              "printedName": "sample_app.AppDelegate",
+              "usr": "c:@M@sample_app@objc(cs)AppDelegate"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@sample_app@objc(cs)AppDelegate(im)init",
+          "mangledName": "$s10sample_app11AppDelegateCACycfc",
+          "moduleName": "sample_app",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@sample_app@objc(cs)AppDelegate",
+      "mangledName": "$s10sample_app11AppDelegateC",
+      "moduleName": "sample_app",
+      "isOpen": true,
+      "declAttributes": [
+        "NSApplicationMain",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)FlutterAppDelegate",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "FlutterMacOS.FlutterAppDelegate",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "FlutterMacOS",
+      "printedName": "FlutterMacOS",
+      "declKind": "Import",
+      "moduleName": "sample_app",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "sample_app"
+    },
+    {
+      "kind": "Import",
+      "name": "connectivity_plus_macos",
+      "printedName": "connectivity_plus_macos",
+      "declKind": "Import",
+      "moduleName": "sample_app"
+    },
+    {
+      "kind": "Function",
+      "name": "RegisterGeneratedPlugins",
+      "printedName": "RegisterGeneratedPlugins(registry:)",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Void",
+          "printedName": "()"
+        },
+        {
+          "kind": "TypeNominal",
+          "name": "FlutterPluginRegistry",
+          "printedName": "FlutterMacOS.FlutterPluginRegistry",
+          "usr": "c:objc(pl)FlutterPluginRegistry"
+        }
+      ],
+      "declKind": "Func",
+      "usr": "s:10sample_app24RegisterGeneratedPlugins8registryySo21FlutterPluginRegistry_p_tF",
+      "mangledName": "$s10sample_app24RegisterGeneratedPlugins8registryySo21FlutterPluginRegistry_p_tF",
+      "moduleName": "sample_app",
+      "funcSelfKind": "NonMutating"
+    }
+  ],
+  "json_format_version": 6
+}

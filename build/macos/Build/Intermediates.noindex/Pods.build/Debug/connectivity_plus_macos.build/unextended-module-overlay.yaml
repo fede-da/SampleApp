@@ -1,0 +1,14 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/mac.fede/Documents/GitHub/sample_app/build/macos/Build/Products/Debug/connectivity_plus_macos/connectivity_plus_macos.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/mac.fede/Documents/GitHub/sample_app/build/macos/Build/Intermediates.noindex/Pods.build/Debug/connectivity_plus_macos.build/unextended-module.modulemap",
+    }]
+  }]
+}

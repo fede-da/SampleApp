@@ -1,2 +1,2 @@
-# SampleApp
- Sample app with BloC features
+# sample_app
+ Bloc template with all features

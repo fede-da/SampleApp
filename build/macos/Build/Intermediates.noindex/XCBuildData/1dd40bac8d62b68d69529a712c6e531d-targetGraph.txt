@@ -1,0 +1,18 @@
+Target dependency graph (6 targets)
+ReachabilitySwift in Pods, no dependencies
+FlutterMacOS in Pods, no dependencies
+connectivity_plus_macos in Pods, depends on:
+FlutterMacOS in Pods (explicit)
+ReachabilitySwift in Pods (explicit)
+Flutter Assemble in Runner, depends on:
+ReachabilitySwift in Pods (implicit dependency via options '-framework Reachability' in build setting 'OTHER_LDFLAGS')
+connectivity_plus_macos in Pods (implicit dependency via options '-framework connectivity_plus_macos' in build setting 'OTHER_LDFLAGS')
+Pods-Runner in Pods, depends on:
+FlutterMacOS in Pods (explicit)
+ReachabilitySwift in Pods (explicit)
+connectivity_plus_macos in Pods (explicit)
+Runner in Runner, depends on:
+Flutter Assemble in Runner (explicit)
+Pods-Runner in Pods (implicit dependency via file 'Pods_Runner.framework' in build phase 'Link Binary')
+ReachabilitySwift in Pods (implicit dependency via options '-framework Reachability' in build setting 'OTHER_LDFLAGS')
+connectivity_plus_macos in Pods (implicit dependency via options '-framework connectivity_plus_macos' in build setting 'OTHER_LDFLAGS')

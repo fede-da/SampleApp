@@ -1,0 +1,10 @@
+framework module connectivity_plus_macos {
+  umbrella header "connectivity_plus_macos-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module connectivity_plus_macos.__Swift {
+    exclude header "connectivity_plus_macos-Swift.h"
+}

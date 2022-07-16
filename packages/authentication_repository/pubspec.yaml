@@ -1,0 +1,9 @@
+name: authentication_repository
+description: A new Flutter project.
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+dependencies:
+  equatable: ^2.0.0
+  http: ^0.13.4
+  models :
+    path : '../models'
