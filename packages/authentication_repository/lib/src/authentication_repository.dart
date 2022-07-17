@@ -43,8 +43,7 @@ class AuthenticationRepository {
     required String password,
   }) async {
     try {
-      return await _login(
-          UserCredentials(name: "name", email: username, password: password));
+      return await _login(UserCredentials(email: username, password: password));
     } catch (e) {
       return null;
     }
@@ -57,7 +56,7 @@ class AuthenticationRepository {
   }) async {
     try {
       return await _register(
-          UserCredentials(name: "name", email: username, password: password));
+          UserCredentials(email: username, password: password));
     } catch (e) {
       return null;
     }
