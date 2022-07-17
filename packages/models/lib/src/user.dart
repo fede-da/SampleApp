@@ -20,14 +20,14 @@ class User extends Equatable {
     return <String, dynamic>{
       'token': token,
       'name': name,
-      'id': int.parse("id"),
+      'id': id,
     };
   }
 
   factory User.fromMap(Map<String, dynamic> json) {
     return User(
       token: json['token'] ?? "token",
-      name: json['name'] ?? "name",
+      name: json['name'] ?? "nzaganicchi",
       id: json['id'] ?? 0,
     );
   }

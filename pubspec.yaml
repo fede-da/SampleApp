@@ -1,5 +1,5 @@
 name: sample_app
-description: A new Flutter project.
+description: Sample app with all BloC features.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -45,6 +45,8 @@ dependencies:
   flutter_bloc: ^8.0.1
   connectivity_plus: ^2.3.5
   camera: ^0.10.0
+  hydrated_bloc: ^8.1.0
+  path_provider: ^2.0.11
 
 dev_dependencies:
   flutter_test:

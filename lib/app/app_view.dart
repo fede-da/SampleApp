@@ -26,13 +26,13 @@ class InternetListener extends StatelessWidget {
       listener: (newContext, state) {
         switch (state.runtimeType) {
           case InternetConnectionOffline:
-            Navigator.of(context).pushNamed("/paginaAssenzaInternet");
             canBePopped = true;
+            Navigator.of(context).pushNamed("/paginaAssenzaInternet");
             break;
           case InternetConnectionOnline:
             if (canBePopped) {
-              Navigator.of(context).pop();
               canBePopped = false;
+              Navigator.of(context).pop();
             }
             break;
           default:

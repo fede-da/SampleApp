@@ -164,6 +164,12 @@
       "languageVersion": "2.17"
     },
     {
+      "name": "file",
+      "rootUri": "file:///Users/mac.fede/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/file-6.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "flutter",
       "rootUri": "file:///Users/mac.fede/Desktop/flutter/packages/flutter",
       "packageUri": "lib/",
@@ -206,6 +212,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "hive",
+      "rootUri": "file:///Users/mac.fede/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/hive-2.2.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "http",
       "rootUri": "file:///Users/mac.fede/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/http-0.13.4",
       "packageUri": "lib/",
@@ -214,6 +226,12 @@
     {
       "name": "http_parser",
       "rootUri": "file:///Users/mac.fede/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/http_parser-4.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "hydrated_bloc",
+      "rootUri": "file:///Users/mac.fede/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/hydrated_bloc-8.1.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -272,16 +290,70 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "path_provider",
+      "rootUri": "file:///Users/mac.fede/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-2.0.11",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "path_provider_android",
+      "rootUri": "file:///Users/mac.fede/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_android-2.0.16",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "path_provider_ios",
+      "rootUri": "file:///Users/mac.fede/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_ios-2.0.10",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "path_provider_linux",
+      "rootUri": "file:///Users/mac.fede/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-2.1.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "path_provider_macos",
+      "rootUri": "file:///Users/mac.fede/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-2.0.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "path_provider_platform_interface",
+      "rootUri": "file:///Users/mac.fede/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_platform_interface-2.0.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "path_provider_windows",
+      "rootUri": "file:///Users/mac.fede/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-2.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
       "name": "petitparser",
       "rootUri": "file:///Users/mac.fede/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/petitparser-5.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.16"
     },
     {
+      "name": "platform",
+      "rootUri": "file:///Users/mac.fede/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/platform-3.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "plugin_platform_interface",
       "rootUri": "file:///Users/mac.fede/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-2.1.2",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "process",
+      "rootUri": "file:///Users/mac.fede/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/process-4.2.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
     },
     {
       "name": "provider",
@@ -332,6 +404,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "synchronized",
+      "rootUri": "file:///Users/mac.fede/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/synchronized-3.0.0+2",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
       "name": "term_glyph",
       "rootUri": "file:///Users/mac.fede/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/term_glyph-1.2.0",
       "packageUri": "lib/",
@@ -368,6 +446,18 @@
       "languageVersion": "2.14"
     },
     {
+      "name": "win32",
+      "rootUri": "file:///Users/mac.fede/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/win32-2.7.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "xdg_directories",
+      "rootUri": "file:///Users/mac.fede/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/xdg_directories-0.2.0+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "xml",
       "rootUri": "file:///Users/mac.fede/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/xml-6.1.0",
       "packageUri": "lib/",
@@ -380,7 +470,7 @@
       "languageVersion": "2.17"
     }
   ],
-  "generated": "2022-07-16T13:33:34.609363Z",
+  "generated": "2022-07-16T14:38:25.646651Z",
   "generator": "pub",
   "generatorVersion": "2.17.5"
 }

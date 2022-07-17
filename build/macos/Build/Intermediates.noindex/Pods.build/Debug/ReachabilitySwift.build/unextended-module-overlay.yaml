@@ -4,11 +4,11 @@
   'case-sensitive': 'false',
   'roots': [{
     'type': 'directory',
-    'name': "/Users/mac.fede/Documents/GitHub/sample_app/build/macos/Build/Products/Debug/ReachabilitySwift/Reachability.framework/Modules"
+    'name': "/Users/mac.fede/Documents/GitHub/SampleApp/build/macos/Build/Products/Debug/ReachabilitySwift/Reachability.framework/Modules"
     'contents': [{
       'type': 'file',
       'name': "module.modulemap",
-      'external-contents': "/Users/mac.fede/Documents/GitHub/sample_app/build/macos/Build/Intermediates.noindex/Pods.build/Debug/ReachabilitySwift.build/unextended-module.modulemap",
+      'external-contents': "/Users/mac.fede/Documents/GitHub/SampleApp/build/macos/Build/Intermediates.noindex/Pods.build/Debug/ReachabilitySwift.build/unextended-module.modulemap",
     }]
   }]
 }
