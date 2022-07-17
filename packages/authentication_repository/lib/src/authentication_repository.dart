@@ -4,8 +4,6 @@ import 'package:models/models.dart';
 import 'models/user_credentials.dart';
 import 'package:http/http.dart' as http;
 
-//TODO: Make your own implementation
-
 enum AuthenticationStatus { unknown, authenticated, unauthenticated }
 
 class AuthenticationRepository {
@@ -19,6 +17,8 @@ class AuthenticationRepository {
   Stream<AuthenticationStatus> get status async* {
     yield* _controller.stream;
   }
+
+  //TODO: Make your own implementations
 
   Future<User> _register(UserCredentials user) async {
     return User(token: "token", name: "name", id: 0);
