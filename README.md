@@ -1,5 +1,5 @@
 # sample_app
- Bloc template app with some features.
+ Bloc template for Flutter app with some features.
  
  It starts from this example on BloC docs : https://bloclibrary.dev/#/flutterlogintutorial
  
