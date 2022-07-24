@@ -1,6 +1,0 @@
-version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
-options: "0f4d0a922266ec8585707d7f8a8f033002f953e577b213c562b1f61f823aaab8"
-build_start_time: [1657726799, 184370994]
-build_end_time: [1657726808, 491678953]
-inputs:
-  "/Users/mac.fede/Documents/GitHub/sample_app/macos/Pods/ReachabilitySwift/Sources/Reachability.swift": [1657726790, 278795719]
