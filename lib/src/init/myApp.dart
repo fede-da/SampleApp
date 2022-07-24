@@ -1,6 +1,8 @@
 import 'package:authentication_repository/authentication_repository.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:sample_app/src/features/blocs/camera_bloc/camera_bloc.dart';
+import 'package:sample_app/src/utils/camera_utils.dart';
 import 'package:user_repository/user_repository.dart';
 
 import '../views/app/app_view.dart';
@@ -38,6 +40,10 @@ class MyApp extends StatelessWidget {
           ),
           BlocProvider<InternetConnectionBloc>(
             create: ((context) => InternetConnectionBloc()),
+          ),
+          BlocProvider<CameraBloc>(
+            create: ((context) => CameraBloc()),
+            lazy: false,
           ),
         ],
         child: AppView(),

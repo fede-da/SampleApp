@@ -12,24 +12,27 @@ class CameraInitial extends CameraState {}
 class CameraReady extends CameraState {}
 
 class CameraFailure extends CameraState {
-  String error;
-  CameraFailure({required this.error});
+  final String error;
 
-  String getError() => error;
+  CameraFailure({this.error = "CameraFailure"});
+
+  @override
+  List<Object> get props => [error];
 }
 
 class CameraCaptureInProgress extends CameraState {}
 
 class CameraCaptureSuccess extends CameraState {
-  String path;
-  CameraCaptureSuccess({required this.path});
+  final String path;
 
-  String getPath() => path;
+  CameraCaptureSuccess(this.path);
 }
 
-class CameraCaptureFailure extends CameraState {
-  String error;
-  CameraCaptureFailure({required this.error});
+class CameraCaptureFailure extends CameraReady {
+  final String error;
 
-  String getPath() => error;
+  CameraCaptureFailure({this.error = "CameraFailure"});
+
+  @override
+  List<Object> get props => [error];
 }

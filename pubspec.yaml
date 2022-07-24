@@ -47,6 +47,7 @@ dependencies:
   camera: ^0.10.0
   hydrated_bloc: ^8.1.0
   path_provider: ^2.0.11
+  provider: ^6.0.3
 
 dev_dependencies:
   flutter_test:

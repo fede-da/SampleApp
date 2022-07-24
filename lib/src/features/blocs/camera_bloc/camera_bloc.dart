@@ -1,10 +1,13 @@
+import 'dart:async';
+
 import 'package:bloc/bloc.dart';
-import 'package:equatable/equatable.dart';
 import 'package:camera/camera.dart';
+import 'package:equatable/equatable.dart';
 
 import '../../../utils/camera_utils.dart';
 
 part 'camera_event.dart';
+
 part 'camera_state.dart';
 
 class CameraBloc extends Bloc<CameraEvent, CameraState> {
@@ -13,6 +16,7 @@ class CameraBloc extends Bloc<CameraEvent, CameraState> {
   late final CameraLensDirection _cameraLensDirection;
 
   late CameraController? _controller;
+  CameraController? get controller => _controller!;
 
   CameraBloc() : super(CameraInitial()) {
     _cameraUtils = CameraUtils();
@@ -24,12 +28,12 @@ class CameraBloc extends Bloc<CameraEvent, CameraState> {
   }
 
   Stream<CameraState> _onCameraInitialized(
-      CameraInitialized event, emit) async* {
+      CameraInitialized event, Emitter emit) async* {
     try {
       _controller = await _cameraUtils.getCameraController(
           _resolutionPreset, _cameraLensDirection);
       await _controller?.initialize();
-      yield CameraReady();
+      emit(CameraReady());
     } on CameraException catch (error) {
       _controller?.dispose();
       yield CameraFailure(error: error.description ?? "Camera generic error");
@@ -44,7 +48,7 @@ class CameraBloc extends Bloc<CameraEvent, CameraState> {
       try {
         final path = await _cameraUtils.getPath();
         await _controller?.takePicture();
-        yield CameraCaptureSuccess(path: path);
+        yield CameraCaptureSuccess(path);
       } on CameraException catch (error) {
         yield CameraCaptureFailure(
             error: error.description ?? "Generic camera capture failure");

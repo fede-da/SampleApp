@@ -7,8 +7,8 @@ abstract class CameraEvent extends Equatable {
   List<Object> get props => [];
 }
 
-class CameraInitialized extends CameraEvent {}
+class CameraInitialized extends CameraEvent{}
 
-class CameraStopped extends CameraEvent {}
+class CameraStopped extends CameraEvent{}
 
-class CameraCaptured extends CameraEvent {}
+class CameraCaptured extends CameraEvent{}

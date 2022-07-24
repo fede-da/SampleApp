@@ -57,6 +57,8 @@ class AuthenticationBloc
     }
   }
 
+  void logout() => add(AuthenticationLogoutRequested());
+
   Future<User> login(
       {required String username, required String password}) async {
     try {
