@@ -11,4 +11,4 @@
  
  Update :
  - Added "camera provider" that allow user to take a picture from camera and displays it, next step is to turn this provider into a Bloc.
- - Added pick image feature but needs to make it a BloC
+ - Added pick image feature but need to make it a BloC
